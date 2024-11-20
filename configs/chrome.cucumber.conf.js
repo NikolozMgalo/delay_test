@@ -38,7 +38,7 @@ export const config = {
             {
                 browserName: "chrome",
                 "goog:chromeOptions": {
-                    //args: [ "headless", "disable-gpu" ],
+                    args: [ "headless", "disable-gpu" ],
                     prefs: {
                         "download.default_directory": downloadDir,
                         'safebrowsing.enabled': true,
